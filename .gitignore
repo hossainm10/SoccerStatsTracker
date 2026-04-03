@@ -1,0 +1,5 @@
+.env
+venv/
+routes/venv/
+database/venv/
+services/venv/
