@@ -9,5 +9,10 @@ headers={
         }
 
 def get_response(endpoint,params):
+    
+    print(freeapi_url+endpoint)
+    print(params)
     response = requests.get(freeapi_url+endpoint, headers=headers,params=params)
-    return response
+    print(response.status_code)
+    print(response.json())
+    return response.json()
