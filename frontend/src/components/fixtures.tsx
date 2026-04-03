@@ -15,7 +15,7 @@ function DisplayFixtures(){
 	
 	]	
 	const [data,setData]=useState(null)
-	const [selectedLeague, setSelectedLeague]=useState(null)
+	const [selectedLeague, setSelectedLeague]=useState(39)
 	useEffect( () => {
 		
 		const fetchData= async() => {
@@ -34,7 +34,7 @@ function DisplayFixtures(){
 				<option key={fixture.id} value= {fixture.id	}>{fixture.name}</option>))}
 		
 			</select>
-			<div> {data ? : JSON.stringify(data) : "No data available"}</div>
+			<div> {data ?  JSON.stringify(data) : "No data available"}</div>
 
 		</div>
 	)
