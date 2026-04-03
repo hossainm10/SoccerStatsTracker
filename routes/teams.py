@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from services.freeapi import get_response
 
 
-url_path="/football-get-list-all-team"
+url_path="/football-get-football-team"
 router=APIRouter(prefix="/teams",tags=["teams"])
 
 
