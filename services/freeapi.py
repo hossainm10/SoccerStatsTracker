@@ -8,6 +8,6 @@ headers={
         "x-rapidapi-key":free_api
         }
 
-def get_response(endpoint):
-    response = requests.get(freeapi_url+endpoint, headers=headers)
+def get_response(endpoint,params):
+    response = requests.get(freeapi_url+endpoint, headers=headers,params=params)
     return response
