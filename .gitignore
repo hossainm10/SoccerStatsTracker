@@ -1,5 +1,6 @@
 .env
 venv/
+__pycache__/
 routes/venv/
 database/venv/
 services/venv/
