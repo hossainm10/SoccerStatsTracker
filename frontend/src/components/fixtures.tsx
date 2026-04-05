@@ -7,7 +7,7 @@ interface league_fixture {
 
 }
 
-function DisplayFixtures(){
+export default function DisplayFixtures(){
 	const fixtures_id:league_fixture[]=[
 		{id: 39, name: "Premier League"},
 		{id:2,name:"Champions League"},

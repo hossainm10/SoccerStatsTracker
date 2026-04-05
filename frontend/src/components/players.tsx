@@ -2,7 +2,7 @@ import { getPlayer } from "./api"
 import { useState, useEffect } from "react"
 
 
-function DisplayPlayer(){
+export default function DisplayPlayer(){
 
 
 	const[data,setData] =  useState(null)
